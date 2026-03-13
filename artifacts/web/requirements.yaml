@@ -1,0 +1,23 @@
+packages:
+  "framer-motion": "For smooth page transitions, entry animations, and real-time feed updates"
+  "@hookform/resolvers": "Zod validation integration for react-hook-form"
+  "react-hook-form": "Form state management"
+  "zod": "Schema validation for forms"
+  "date-fns": "For formatting timestamps on reviews and feedback"
+  "lucide-react": "Icons"
+
+images:
+  - path: "artifacts/web/public/images/hero-bg.png"
+    description: "Dark, futuristic abstract background with glowing neon purple and cyan volumetric lights, glassmorphism elements, high quality 3d render"
+    aspect_ratio: "16:9"
+  - path: "artifacts/web/public/images/logo-icon.png"
+    description: "A minimal, modern tech logo mark for an AI agent marketplace, geometric shape glowing in neon cyan on a transparent background"
+    aspect_ratio: "1:1"
+  - path: "artifacts/web/public/images/about-team.png"
+    description: "A futuristic tech team working in a neon-lit cyberpunk office, dark mode, high quality cinematic lighting"
+    aspect_ratio: "16:9"
+
+notes:
+  - Using generated Orval hooks from @workspace/api-client-react
+  - Auth token is stored in localStorage and passed via Authorization: Bearer header in the request options of the hooks.
+  - Using real-time polling (refetchInterval) for the feedback page.
